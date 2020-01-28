@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/STwitter-has-Queue-Cache.iml" filepath="$PROJECT_DIR$/.idea/STwitter-has-Queue-Cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comment-queue-consumer/comment-queue-consumer.iml" filepath="$PROJECT_DIR$/comment-queue-consumer/comment-queue-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comment-service/comment-service.iml" filepath="$PROJECT_DIR$/comment-service/comment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-service-registry/eureka-service-registry.iml" filepath="$PROJECT_DIR$/eureka-service-registry/eureka-service-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/post-service/post-service.iml" filepath="$PROJECT_DIR$/post-service/post-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-config-server/spring-config-server.iml" filepath="$PROJECT_DIR$/spring-config-server/spring-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stwitter-service/stwitter-service.iml" filepath="$PROJECT_DIR$/stwitter-service/stwitter-service.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Capstone-U2-With-Daniel-Good-Tests.iml" filepath="$PROJECT_DIR$/.idea/Capstone-U2-With-Daniel-Good-Tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/U2-Capstone-Admin-Api/admin-service/admin-service.iml" filepath="$PROJECT_DIR$/U2-Capstone-Admin-Api/admin-service/admin-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u2-capstone-eureka-and-config/config-server/config-server.iml" filepath="$PROJECT_DIR$/u2-capstone-eureka-and-config/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/U2-Capstone-Customer-Service/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/U2-Capstone-Customer-Service/customer-service/customer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/u2-capstone-eureka-and-config/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/u2-capstone-eureka-and-config/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/U2-Capstone-Product-Service/product-service/product-service.iml" filepath="$PROJECT_DIR$/U2-Capstone-Product-Service/product-service/product-service.iml" />
+    </modules>
+  </component>
+</project>

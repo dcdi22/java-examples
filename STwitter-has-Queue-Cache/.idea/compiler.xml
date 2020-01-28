@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-config-server" />
+        <module name="stwitter-service" />
+        <module name="eureka-service-registry" />
+        <module name="post-service" />
+        <module name="comment-queue-consumer" />
+        <module name="comment-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="comment-queue-consumer" target="1.8" />
+      <module name="comment-service" target="1.8" />
+      <module name="eureka-service-registry" target="1.8" />
+      <module name="post-service" target="1.8" />
+      <module name="spring-config-server" target="1.8" />
+      <module name="stwitter-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="comment-queue-consumer" options="-parameters" />
+      <module name="comment-service" options="-parameters" />
+      <module name="eureka-service-registry" options="-parameters" />
+      <module name="post-service" options="-parameters" />
+      <module name="spring-config-server" options="-parameters" />
+      <module name="stwitter-service" options="-parameters" />
+    </option>
+  </component>
+</project>

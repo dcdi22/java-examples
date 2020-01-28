@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Rsvp-Jpa-With-Erwins.iml" filepath="$PROJECT_DIR$/.idea/Rsvp-Jpa-With-Erwins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rsvp-edge/rsvp-edge.iml" filepath="$PROJECT_DIR$/rsvp-edge/rsvp-edge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rsvp-service/rsvp-service.iml" filepath="$PROJECT_DIR$/rsvp-service/rsvp-service.iml" />
+    </modules>
+  </component>
+</project>

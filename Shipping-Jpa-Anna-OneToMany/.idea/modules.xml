@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Shipping-Jpa-Anna-OneToMany.iml" filepath="$PROJECT_DIR$/.idea/Shipping-Jpa-Anna-OneToMany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shipping-edge-service/shipping-edge-service.iml" filepath="$PROJECT_DIR$/shipping-edge-service/shipping-edge-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shipping-service/shipping-service.iml" filepath="$PROJECT_DIR$/shipping-service/shipping-service.iml" />
+    </modules>
+  </component>
+</project>

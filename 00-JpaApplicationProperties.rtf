@@ -1,0 +1,30 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Application Properties For JPA\
+\
+ // ========== Erwins Jpa NOT using H2 =========\
+\
+spring.application.name=rsvp-service\
+server.port=5656\
+\
+\
+eureka.client.service-url.defaultZone=http://localhost:8762/eureka\
+spring.jpa.hibernate.ddl-auto=create\
+spring.datasource.url: jdbc:mysql://localhost:3306/rsvp?useSSL=false\
+spring.datasource.username: root\
+spring.datasource.password: root\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0  // ========== Anna. Shipping Jpa USING H2 =========\
+\
+spring.datasource.url=jdbc:h2:mem:shipping\
+spring.datasource.driverClassName=org.h2.Driver\
+spring.datasource.username=sa\
+spring.datasource.password=password\
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect}

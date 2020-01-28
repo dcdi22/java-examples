@@ -1,0 +1,136 @@
+openapi: 3.0.0
+info:
+  title: Stwitter Service
+  description: A stripped down social media service
+  version: 0.0.1
+  
+servers: 
+  - url: http://localhost:8889
+    description: Local dev server
+    
+paths:
+  /posts:
+    post:
+      summary: Create a new post by going through PostViewModel
+      description: Adds a new post object to DB
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostViewModel'
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostViewModel'
+        '404':
+          description: EntityNotFound
+          content:
+            application/json:
+              schema:
+                type: string
+        
+  /posts/{id}:
+    get:
+      summary: Get post by postId
+      description: Retrieves post by id
+      parameters: 
+        - name: id
+          in: path
+          required: true
+          description: Post Id
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostViewModel'
+        '404':
+          description: EntityNotFound
+          content:
+            application/json:
+              schema:
+                type: string
+                
+                
+  /posts/user/{poster_name}:
+    get:
+      summary: Get posts by user name
+      description: Retrieves posts by user
+      parameters: 
+        - name: poster_name
+          in: path
+          required: true
+          description: Poster Name
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostViewModel'
+        '404':
+          description: EntityNotFound
+          content:
+            application/json:
+              schema:
+                type: string
+                
+  /comments:
+    post:
+      summary: Create a new comment
+      description: Adds a new comment to DB
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Comment'
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                type: string
+      
+components:
+  schemas:
+  
+    Comment:
+      properties:
+        commentId:
+          type: integer
+        postId:
+          type: integer
+        commenterName:
+          type: string
+        commentDate:
+          type: object
+        comment:
+          type: string
+
+    PostViewModel:
+      properties:
+        postId:
+          type: integer
+        postContent:
+          type: string
+        postDate:
+          type: object
+        posterName:
+          type: string
+        comments:
+          type: array
+      required: 
+        - postId
+        - postDate
+        - posterName
